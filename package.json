@@ -1,0 +1,19 @@
+{
+  "name": "bcontacts",
+  "version": "1.0.0",
+  "description": "my pet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sinled/bcontacts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinled/bcontacts/issues"
+  },
+  "homepage": "https://github.com/Sinled/bcontacts"
+}
