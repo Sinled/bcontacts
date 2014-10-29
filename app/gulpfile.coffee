@@ -7,7 +7,6 @@ options =
   stylesFolder: 'styles'
   staticFolder: '../static'
 
-gulp.task 'default', ['clean', 'styles']
 
 gulp.task 'clean', -> del ["#{options.staticFolder}/*"], force: true
 
@@ -19,3 +18,5 @@ gulp.task 'styles', ->
       cascade: false
     .pipe gulp.dest "#{options.staticFolder}/#{options.stylesFolder}"
 
+
+gulp.task 'default', ['clean', 'styles']
