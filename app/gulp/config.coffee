@@ -1,6 +1,7 @@
 src = './src'
 dest = '../static'
 
+
 module.exports =
   styles:
     src: "#{src}/styles/*.styl"
