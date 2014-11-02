@@ -1,6 +1,7 @@
 gulp = require 'gulp'
 del = require 'del'
 config = require '../config'
+  .clean
 
 
-gulp.task 'clean', -> del config.clean.dest, force: true
+gulp.task 'clean', -> del config.dest, force: true
