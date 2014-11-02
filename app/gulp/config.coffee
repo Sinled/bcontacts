@@ -13,15 +13,3 @@ module.exports =
 
   clean:
     dest: ["#{dest}/*"]
-
-
-
-
-
-
-
-
-
-
-
-

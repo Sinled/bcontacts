@@ -2,6 +2,6 @@ gulp = require 'gulp'
 
 
 gulp.task 'serve', [
-  'styles'
+  'base'
   'watch'
 ]
