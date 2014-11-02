@@ -22,6 +22,11 @@ module.exports =
     watchSrc: "#{src}/styles/**/*.styl"
     dest: "#{dest}/styles"
 
+  scripts:
+    src: "#{src}/scripts/*.js"
+    watchSrc: "#{src}/styles/**/*.js"
+    dest: "#{dest}/scripts"
+
   autoprefixer:
     browsers: ['last 2 versions']
     cascade: false
