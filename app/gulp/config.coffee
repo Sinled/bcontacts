@@ -8,6 +8,8 @@ module.exports =
     #   # We're serving the src folder as well
     #   # for sass sourcemap linking
     #   baseDir: [dest, src]
+
+    # we need proxy to work with python server
     proxy: "localhost:8081"
 
     files: [
@@ -17,6 +19,7 @@ module.exports =
 
   styles:
     src: "#{src}/styles/*.styl"
+    watchSrc: "#{src}/styles/**/*.styl"
     dest: "#{dest}/styles"
 
   autoprefixer:

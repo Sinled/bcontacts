@@ -3,4 +3,4 @@ config = require '../config'
 
 
 gulp.task 'watch', ['browserSync'], ->
-  gulp.watch config.styles.src, ['styles']
+  gulp.watch config.styles.watchSrc, ['styles']
