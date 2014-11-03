@@ -32,3 +32,6 @@ static
 
 # bower components
 bower_components
+
+# sass tempfiles
+.sass-cache
