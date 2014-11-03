@@ -22,6 +22,21 @@ module.exports =
     watchSrc: "#{src}/styles/**/*.styl"
     dest: "#{dest}/styles"
 
+  libsass:
+    src: "#{src}/libsass/*.scss"
+    watchSrc: "#{src}/libsass/**/*.scss"
+    dest: "#{dest}/libsass"
+
+  sass:
+    src: "#{src}/sass/*.scss"
+    watchSrc: "#{src}/sass/**/*.scss"
+    dest: "#{dest}/sass"
+
+  less:
+    src: "#{src}/less/*.less"
+    watchSrc: "#{src}/less/**/*.less"
+    dest: "#{dest}/less"
+
   scripts:
     src: "#{src}/scripts/*.js"
     watchSrc: "#{src}/styles/**/*.js"
