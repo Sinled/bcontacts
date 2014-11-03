@@ -4,5 +4,5 @@ config = require '../config'
   .browserSync
 
 
-gulp.task 'browserSync', ['base'], -> browserSync(config)
+gulp.task 'browserSync', -> browserSync(config)
 
