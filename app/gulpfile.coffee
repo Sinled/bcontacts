@@ -11,6 +11,4 @@ gulp.task 'watch', ['base', 'browserSync'], ->
   gulp.watch config.styles.watchSrc, ['styles']
   gulp.watch config.scripts.watchSrc, ['scripts']
 
-gulp.task 'serve', ['base', 'watch']
-
 gulp.task 'default', ['clean', 'base']
