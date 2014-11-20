@@ -1,0 +1,3 @@
+[submodule "app/gulp/tasks"]
+	path = app/gulp/tasks
+	url = git@github.com:Sinled/gulp-tasks.git
