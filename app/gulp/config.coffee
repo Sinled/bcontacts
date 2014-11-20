@@ -18,7 +18,7 @@ module.exports =
 
   scripts:
     src: "#{src}/scripts/*.js"
-    watchSrc: "#{src}/styles/**/*.js"
+    watchSrc: "#{src}/scripts/**/*.js"
     dest: "#{dest}/scripts"
 
   autoprefixer:
