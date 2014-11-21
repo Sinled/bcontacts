@@ -4,7 +4,9 @@ dest = '../static'
 
 module.exports =
   browserSync:
+    browser: "google chrome"
     proxy: "localhost:8081"
+    open: false
 
     files: [
       "#{dest}/**"
@@ -17,8 +19,8 @@ module.exports =
     dest: "#{dest}/styles"
 
   scripts:
-    src: "#{src}/scripts/*.js"
-    watchSrc: "#{src}/scripts/**/*.js"
+    src: "#{src}/scripts/**/[^_]*.js"
+    watchSrc: "#{src}/scripts/**/[^_]*.js"
     dest: "#{dest}/scripts"
 
   autoprefixer:
