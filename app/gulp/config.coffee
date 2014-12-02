@@ -28,4 +28,8 @@ module.exports =
     cascade: false
 
   clean:
-    dest: ["#{dest}/*"]
+    dest: [
+      "#{dest}/styles/*"
+      "#{dest}/scripts/*"
+      "#{dest}/images/*"
+    ]
